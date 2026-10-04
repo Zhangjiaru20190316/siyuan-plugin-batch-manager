@@ -1,0 +1,154 @@
+{
+  "pluginName": "Batch Manager",
+  "topbarTitle": "Batch Manager (browse / filter / delete / export / transfer / rename)",
+  "cmdOpen": "Open Batch Manager panel",
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "close": "Close",
+    "save": "Save"
+  },
+  "side": {
+    "notebooks": "Notebooks",
+    "refresh": "Refresh notebook list",
+    "refreshBtn": "Refresh",
+    "tip": "Click a notebook to browse its docs (lazy tree); filters above are SQL-based and can span notebooks"
+  },
+  "filter": {
+    "notebook": "Notebook",
+    "allNotebooks": "All notebooks",
+    "keyword": "Keyword",
+    "keywordPh": "Title contains…",
+    "updatedRange": "Updated",
+    "from": "Updated from",
+    "to": "Updated to",
+    "search": "Filter",
+    "reset": "Reset"
+  },
+  "table": {
+    "title": "Title",
+    "path": "Path",
+    "subDocs": "Sub-docs",
+    "created": "Created",
+    "updated": "Updated",
+    "empty": "No data",
+    "emptyHint": "Click a notebook on the left to browse, or use the filters above to query",
+    "loading": "Loading…",
+    "expand": "Expand sub-documents",
+    "collapse": "Collapse sub-documents"
+  },
+  "select": {
+    "selectedCount": "{n} selected",
+    "all": "Select page",
+    "invert": "Invert page",
+    "allFiltered": "Select all filtered",
+    "clear": "Clear selection",
+    "loadingAll": "Collecting filtered results",
+    "selectedFiltered": "Selected {n} filtered docs",
+    "tipNone": "Check documents in the table to enable the batch actions below"
+  },
+  "ops": {
+    "del": "Delete",
+    "export": "Export",
+    "move": "Transfer",
+    "rename": "Rename",
+    "settings": "Settings"
+  },
+  "delete": {
+    "confirmTitle": "Confirm batch delete",
+    "confirmBody": "You are about to delete <b>{n}</b> documents",
+    "withChildren": "including about <b>{c}</b> sub-documents that will be deleted together",
+    "maybeChildren": "Filtered results may contain sub-documents, they will be deleted with their parents",
+    "trashTip": "Documents will be moved to trash (Doc tree → More → Trash, recoverable)",
+    "permanent": "Delete permanently (irrecoverable)",
+    "permanentTip": "DANGER: they will be physically removed from trash immediately and CANNOT be recovered!",
+    "permanentFailed": "moved to trash, but permanent purge failed (clean up manually in trash)",
+    "running": "Deleting",
+    "done": "Batch delete"
+  },
+  "exportDlg": {
+    "title": "Batch export",
+    "countInfo": "{n} documents will be exported",
+    "mode": "Mode",
+    "merged": "Merge into one zip",
+    "individual": "Save one by one (a zip per doc)",
+    "includeAssets": "Include assets (images etc.)",
+    "assetsTip": "Merged + assets is packaged by the kernel in one shot (recommended); without assets, pure Markdown files are exported",
+    "go": "Start export"
+  },
+  "exportRun": {
+    "running": "Exporting",
+    "merging": "Building merged zip…",
+    "done": "Batch export",
+    "saved": "{n} file(s) saved/started"
+  },
+  "move": {
+    "title": "Batch transfer",
+    "countInfo": "{n} documents will be transferred",
+    "notebook": "Target notebook",
+    "tabSearch": "Search target",
+    "tabBrowse": "Browse levels",
+    "searchPh": "Search target parent doc by title keyword",
+    "searchBtn": "Search",
+    "searchTip": "Type a keyword and press Enter, then click a result to set it as the target parent doc",
+    "noResult": "No matching documents",
+    "rootLabel": "notebook root",
+    "target": "Target parent doc (optional, notebook root by default)",
+    "stopHere": "—— stop here ——",
+    "targetLabel": "Transfer to: {t}",
+    "clearPick": "Clear picked target",
+    "confirm": "Transfer now",
+    "running": "Transferring",
+    "done": "Batch transfer",
+    "invalidSelf": "target is the document itself",
+    "invalidChild": "target is a sub-document of it",
+    "invalidHint": "{n} document(s) whose target is itself or its own sub-document will be skipped",
+    "invalidAll": "None of the selected documents can be transferred to this target"
+  },
+  "rename": {
+    "title": "Batch rename",
+    "countInfo": "{n} documents will be renamed",
+    "mode": "Mode",
+    "prefix": "Add prefix",
+    "suffix": "Add suffix",
+    "replace": "Find & replace",
+    "prefixPh": "Prefix to add",
+    "suffixPh": "Suffix to add",
+    "findPh": "Find",
+    "replacePh": "Replace with (can be empty)",
+    "useRegex": "Use regular expression",
+    "preview": "Preview (up to 50 rows)",
+    "original": "Original title",
+    "renamed": "New title",
+    "invalid": "invalid",
+    "apply": "Apply rename ({n})",
+    "badName": "Result title is empty or contains illegal chars like /",
+    "needFind": "Please fill in the find text",
+    "regexError": "Invalid regex: {e}",
+    "running": "Renaming",
+    "done": "Batch rename"
+  },
+  "settings": {
+    "title": "Plugin settings",
+    "directDelete": "Check \"Delete permanently\" by default",
+    "directDeleteTip": "Only affects the default state of the checkbox in the delete confirmation dialog",
+    "concurrency": "Batch concurrency",
+    "concurrencyTip": "1~3; delete always runs serially for safety",
+    "saved": "Settings saved"
+  },
+  "report": {
+    "summary": "Succeeded {ok} / Failed {fail}",
+    "failDetail": "Failure details"
+  },
+  "msg": {
+    "noSelection": "Please select documents first",
+    "loadError": "Failed to load",
+    "canceled": "Operation canceled, see report for finished part"
+  },
+  "pager": {
+    "prev": "Prev",
+    "next": "Next",
+    "page": "Page {p} / {t}",
+    "total": "{n} items in total"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "siyuan-plugin-batch-manager",
+  "author": "hh",
+  "url": "https://github.com/hh/siyuan-plugin-batch-manager",
+  "version": "0.2.0",
+  "minAppVersion": "3.0.0",
+  "backends": ["windows", "linux", "darwin"],
+  "frontends": ["desktop", "browser-desktop", "desktop-window"],
+  "displayName": {
+    "default": "Batch Manager",
+    "zh_CN": "批量管理"
+  },
+  "description": {
+    "default": "Batch manage documents: browse & filter (SQL), multi-select, batch delete (trash/permanent), export (Markdown zip), transfer (searchable target), rename.",
+    "zh_CN": "批量管理文档：浏览与 SQL 筛选、多选、批量删除（回收站/彻底删除）、导出 Markdown（zip）、批量转移（可搜索目标）、批量重命名。"
+  }
+}
