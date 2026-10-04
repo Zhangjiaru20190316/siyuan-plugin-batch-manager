@@ -1,7 +1,7 @@
 {
   "name": "siyuan-plugin-batch-manager",
   "author": "hh",
-  "url": "https://github.com/hh/siyuan-plugin-batch-manager",
+  "url": "https://github.com/Zhangjiaru20190316/siyuan-plugin-batch-manager",
   "version": "0.2.0",
   "minAppVersion": "3.0.0",
   "backends": ["windows", "linux", "darwin"],

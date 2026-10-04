@@ -23,7 +23,7 @@
   "author": "hh",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hh/siyuan-plugin-batch-manager.git"
+    "url": "git+https://github.com/Zhangjiaru20190316/siyuan-plugin-batch-manager.git"
   },
   "dependencies": {
     "jszip": "^3.10.1",
